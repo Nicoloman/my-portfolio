@@ -1,0 +1,164 @@
+.contenedor {
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  .accordiones {
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* text */
+  
+  * {
+    box-sizing: border-box;
+    /*   border: 1px solid black; */
+  }
+  
+  body {
+    font-family: "Lato";
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+  }
+  
+  ul {
+    display: flex;
+    min-height: 20vh;
+    max-height: 60vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  li {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    background: #e74c3c;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  
+    &:hover {
+      background: darken(#e74c3c, 3);
+    }
+  
+    &.active {
+      flex: 5;
+      background: #fff;
+      cursor: default;
+  
+      h2 {
+        color: #e74c3c;
+      }
+  
+      .section-content {
+        flex: 4;
+        opacity: 1;
+        transform: scaleX(1);
+        color: #e74c3c;
+      }
+    }
+  
+    .section-title {
+      flex: 1;
+      display: flex;
+      align-items: center;
+  
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: white;
+  
+      h2 {
+        margin: 0;
+        transform: rotate(-90deg);
+        white-space: nowrap;
+      }
+    }
+  
+    .section-content {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      transition: all 0.25s 0.1s ease-out;
+    }
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 3; /* Ensure the text is above other elements */
+    color: #fff; /* Set text color */
+  }
+  
+  .text-container h1 {
+    font-size: 3rem; /* Adjust title font size */
+    margin-bottom: 10px; /* Add spacing between title and subtitle */
+  }
+  
+  .text-container h2 {
+    font-size: 1.5rem; /* Adjust subtitle font size */
+  }
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .gradient-text {
+    /* Adjust font size as needed */
+    background: linear-gradient(
+      45deg,
+      #ff5f6d,
+      #9a08fc
+    ); /* Define the gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    background-clip: text; /* Apply gradient to text */
+    color: transparent; /* Make text transparent */
+    -webkit-text-fill-color: transparent; /* For browser compatibility */
+  }
+  .paragraphs {
+    margin-top: 2rem;
+    display: flex;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .jobTitle {
+    display: flex;
+    align-self: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+  }
+  .description {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-style: italic;
+  }
+  
+  @media (max-width: 760px) {
+    li {
+      display: none;
+      max-width: 35px;
+    }
+    li.active {
+      display: flex;
+      min-width: 100vw;
+    }
+  }
+  @media (min-width: 760px) {
+    div.wrapper {
+      display: none;
+    }
+  }
+  
