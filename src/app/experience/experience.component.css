@@ -7,7 +7,7 @@
     border: 2px solid black;
     position: relative;
     max-width: 100vw;
-    height: 100px; /* Adjust height as needed */
+    height: 100px;
     overflow: hidden;
   }
   
@@ -30,55 +30,37 @@
   .nicoFishEye {
     max-height: 18rem;
     border-radius: 50%;
-    box-shadow: 0 0 20px 10px #70feca, 0 0 40px 20px #88efca, 0 0 60px 30px black; /* Add multiple box shadows with different colors for the gradient effect */
+    box-shadow: 0 0 20px 10px #70feca, 0 0 40px 20px #88efca, 0 0 60px 30px black;
     animation: floatAnimation 6s ease-in-out infinite alternate,
-      glow2 2s linear infinite alternate; /* Animation for floating effect and glowing effect */
+      glow2 2s linear infinite alternate;
   }
   
   .nicoOffLimits {
     max-height: 18rem;
     border-radius: 50%;
-    box-shadow: 0 0 20px 10px #bebebe, 0 0 40px 20px #bebebe, 0 0 60px 30px black; /* Add multiple box shadows with different colors for the gradient effect */
+    box-shadow: 0 0 20px 10px #bebebe, 0 0 40px 20px #bebebe, 0 0 60px 30px black;
     animation: floatAnimation 8s ease-in-out infinite alternate,
-      glow 4s linear infinite alternate; /* Animation for floating effect and glowing effect */
-  }
-  .nicoCampo {
-    max-height: 20rem;
-    border-radius: 50%;
-    box-shadow: 0 0 20px 10px #ec7070, 0 0 40px 20px #ec7070, 0 0 60px 30px black; /* Adjusted colors */
-    animation: floatAnimation 5s ease-in-out infinite alternate,
-      glow3 4s linear infinite alternate; /* Animation for floating effect and glowing effect */
-  }
-  
-  @keyframes glow3 {
-    0% {
-      box-shadow: 0 0 20px 10px #ec7070a4, 0 0 40px 20px #ec707093,
-        0 0 60px 30px #000000; /* Initial gradient colors */
-    }
-    100% {
-      box-shadow: 0 0 30px 15px #ec7070, 0 0 50px 25px #ec7070,
-        0 0 70px 35px #000000; /* Adjusted gradient colors */
-    }
-  }
+      glow 4s linear infinite alternate;
+  }  
   
   @keyframes glow {
     0% {
       box-shadow: 0 0 20px 10px #70feca97, 0 0 40px 20px #88efc9a0,
-        0 0 60px 30px #000000; /* Initial gradient colors */
+        0 0 60px 30px #000000;
     }
     100% {
       box-shadow: 0 0 30px 15px #70feca, 0 0 50px 25px #88efca,
-        0 0 70px 35px #000000; /* Adjusted gradient colors */
+        0 0 70px 35px #000000;
     }
   }
   @keyframes glow2 {
     0% {
       box-shadow: 0 0 20px 10px #bebebe8d, 0 0 40px 20px #bebebe8f,
-        0 0 60px 30px #000000; /* Initial gradient colors */
+        0 0 60px 30px #000000;
     }
     100% {
       box-shadow: 0 0 30px 15px #bebebe, 0 0 50px 25px #bebebe,
-        0 0 70px 35px #000000; /* Adjusted gradient colors */
+        0 0 70px 35px #000000;
     }
   }
   
@@ -87,7 +69,7 @@
       transform: rotate(0deg);
     }
     50% {
-      transform: rotate(45deg); /* Adjust rotation angle as needed */
+      transform: rotate(45deg);
     }
     100% {
       transform: rotate(0deg);
@@ -131,17 +113,17 @@
     top: 40%;
     left: 60%;
     transform: translate(-50%, -50%);
-    z-index: 3; /* Ensure the text is above other elements */
-    color: #fff; /* Set text color */
+    z-index: 3;
+    color: #fff;
   }
   
   .text-container h1 {
-    font-size: 3rem; /* Adjust title font size */
-    margin-bottom: 10px; /* Add spacing between title and subtitle */
+    font-size: 3rem;
+    margin-bottom: 10px;
   }
   
   .text-container h2 {
-    font-size: 1.5rem; /* Adjust subtitle font size */
+    font-size: 1.5rem;
   }
   .permanent-marker-regular {
     font-family: "Permanent Marker", cursive;
@@ -149,16 +131,16 @@
     font-style: normal;
   }
   .gradient-text {
-    font-size: 32px; /* Adjust font size as needed */
+    font-size: 32px;
     background: linear-gradient(
       45deg,
       #ff5f6d,
       #9a08fc
-    ); /* Define the gradient colors */
-    -webkit-background-clip: text; /* Apply gradient to text */
-    background-clip: text; /* Apply gradient to text */
-    color: transparent; /* Make text transparent */
-    -webkit-text-fill-color: transparent; /* For browser compatibility */
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
   }
   .paragraphs {
     margin-top: 2rem;
@@ -320,8 +302,6 @@
     }
     .logos {
       flex-direction: column;
-    }
-    .shown-unity {
     }
   }
   
