@@ -15,7 +15,12 @@ nav {
 li {
   margin-right: 4rem;
 }
-
+.links {
+  display: flex;
+}
+.links a {
+  margin: 0.5rem;
+}
 .espaciado {
   margin: auto;
   width: 90%;
@@ -46,4 +51,13 @@ li {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Add this CSS to change the color of Font Awesome icons on hover */
+.links .nav-link fa-icon {
+  transition: color 0.15s ease-in-out; /* Add transition for smooth effect */
+}
+
+.links .nav-link:hover fa-icon {
+  color: red; /* Change the color on hover */
 }
