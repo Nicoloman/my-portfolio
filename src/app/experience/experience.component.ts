@@ -15,7 +15,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
-  styleUrls: ['./experience.component.css'],
+  styleUrls: ['./experience.component.css', './experience01.component.css'],
 })
 export class ExperienceComponent implements OnInit {
   constructor() {}
