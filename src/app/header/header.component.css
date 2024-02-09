@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: consolas;
+  font-family: "Inconsolata", monospace;
 }
 
 .img-container {
@@ -25,9 +25,7 @@
     transform: translateY(100vh);
   }
   100% {
-    transform: translateY(
-      0
-    );
+    transform: translateY(0);
   }
 }
 
@@ -145,15 +143,11 @@
 }
 .gradient-text {
   font-size: 36px;
-  background: linear-gradient(
-    45deg,
-    #ff5f6d,
-    #9a08fc
-  );
+  background: linear-gradient(45deg, #ff5f6d, #9a08fc);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 }
 .paragraphs {
   margin-top: 2rem;
