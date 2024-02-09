@@ -24,9 +24,11 @@
 <div class="app">
   <app-loader (loaderAnimation)="loaderAnimation($event)"></app-loader>
   <div class="navigation-indicator">
-    <div><span class="dot active"></span></div>
-    <div><span class="dot"></span></div>
-    <div><span class="dot"></span></div>
+    <div>
+      <a class="dot" href="#experience"></a>
+    </div>
+    <div><a class="dot" href="#work"></a></div>
+    <div><a class="dot" href="#projects"></a></div>
   </div>
   <div *ngIf="!loading">
     <app-navbar class="topbar"></app-navbar>
