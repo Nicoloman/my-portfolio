@@ -11,6 +11,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { FooterComponent } from './footer/footer.component';
+import { HamburgerMenuComponent } from './hamburger-menu/hamburger-menu.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     ExperienceComponent,
     NavbarComponent,
+    HamburgerMenuComponent,
     LoaderComponent,
     PortfolioComponent,
     ProjectsComponent,
