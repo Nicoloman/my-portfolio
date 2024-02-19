@@ -154,6 +154,7 @@
     li.active {
       display: flex;
       min-width: 100vw;
+      height: 30rem;
     }
   }
   @media (min-width: 760px) {
