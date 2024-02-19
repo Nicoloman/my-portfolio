@@ -251,3 +251,79 @@ body {
     transform: translate(85px, 0%);
   }
 }
+@media (max-width: 760px) {
+  .banner {
+    height: 80px;
+  }
+  .text {
+    font-size: 4rem;
+    animation: moveText 3s linear infinite;
+  }
+  .yo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .nicoFishEye {
+    margin-right: 0.5rem;
+    max-height: 12rem;
+  }
+  .nicoOffLimits {
+    margin-left: 0.5rem;
+    max-height: 12rem;
+  }
+  .text-container h2 {
+    font-size: 1rem;
+  }
+  .text-container h1 {
+    font-size: 2.5rem;
+  }
+  .text-container {
+    position: absolute;
+    margin: auto;
+    width: 80%;
+    top: 63%;
+    left: 50%;
+  }
+  .gradient-text {
+    font-size: 25px;
+  }
+  .sub-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .logos {
+    flex-direction: column;
+  }
+}
+@media (max-width: 430px) {
+  .logos {
+    display: none;
+  }
+  .work {
+    display: none;
+  }
+  .text-container {
+    position: absolute;
+    margin: auto;
+    width: 80%;
+    top: 60%;
+    left: 50%;
+  }
+  .contenedor {
+    height: 85vh;
+  }
+  .gradient-text {
+    font-size: 25px;
+  }
+  .sub-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .logos {
+    flex-direction: column;
+  }
+}
