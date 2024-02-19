@@ -4,6 +4,7 @@
     height: 100vh;
     overflow: hidden;
     animation: slideOutContainer 1s forwards, slideInContainer 1s forwards;
+    background-color: aquamarine;
   }
   
   @keyframes slideOutContainer {
