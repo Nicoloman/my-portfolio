@@ -5,6 +5,13 @@
 }
 /* fonts */
 
+.videoWeb{
+  max-width: 100vw ;
+}
+.videoWeb video{
+  max-width: 100%;
+}
+
 .title {
   font-size: 3rem;
   text-align: center;
