@@ -20,7 +20,7 @@ export class AppComponent {
         // For simplicity, let's assume there are three sections
         const sectionHeight = window.innerHeight;
         const section1End = sectionHeight * 1.8;
-        const section2End = sectionHeight * 4.5;
+        const section2End = sectionHeight * 2.5;
 
         // Update the active state of dots based on scroll position
         if (scrollPosition < section1End) {
