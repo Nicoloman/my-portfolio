@@ -9,11 +9,8 @@
     font-style: normal;
   }
   
-  /* text */
-  
   * {
     box-sizing: border-box;
-    /*   border: 1px solid black; */
   }
   
   body {
@@ -148,13 +145,18 @@
   
   @media (max-width: 760px) {
     li {
-      display: none;
-      max-width: 35px;
+      opacity: 0;
+      position: fixed;
+      background-color: white;
     }
     li.active {
+      position: relative;
+      opacity: 1;
       display: flex;
       min-width: 100vw;
-      height: 30rem;
+      height: 50rem;
+      align-self: center;
+      transition: all 1s ease-in-out;
     }
   }
   @media (min-width: 760px) {
