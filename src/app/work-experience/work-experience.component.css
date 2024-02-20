@@ -161,5 +161,8 @@
     div.wrapper {
       display: none;
     }
+    ul{
+      height: 50vh;
+    }
   }
   
