@@ -30,3 +30,6 @@
 .links .nav-link:hover fa-icon {
   color: red;
 }
+.links .nav-link:hover img {
+  color: red;
+}
