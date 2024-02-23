@@ -13,6 +13,7 @@ video::-webkit-media-controls-start-playback-button {
 }
 .videoWeb video{
   max-width: 100%;
+  z-index: -1;
 }
 
 .title {
@@ -43,15 +44,6 @@ video::-webkit-media-controls-start-playback-button {
   font-size: 10px;
   margin: 0;
   padding: 0;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  pointer-events: none;
 }
 
 @media (max-width: 760px) {
