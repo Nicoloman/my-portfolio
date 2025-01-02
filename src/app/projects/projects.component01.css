@@ -1,0 +1,42 @@
+.mobile {
+    max-height: 18.75rem;
+    transform: translate(-350px, 30px);
+  }
+  .techs-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tech {
+    margin: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    position: relative;
+    width: 120vw;
+    height: 75px; /* Adjust height as needed */
+    overflow: hidden;
+    transform: rotate(-2deg) translate(-5px, 0px);
+    margin: auto;
+    background-color: yellow;
+    z-index: 999;
+  }
+  .text {
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+    line-height: 0.6;
+  }
+  .text p {
+    margin-bottom: 0;
+    margin-left: 3rem;
+  }

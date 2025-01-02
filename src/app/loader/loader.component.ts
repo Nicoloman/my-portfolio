@@ -13,7 +13,7 @@ export class LoaderComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(() => {
       this.addNewItem();
-    }, 2000);
+    }, 1000);
   }
 
   addNewItem() {

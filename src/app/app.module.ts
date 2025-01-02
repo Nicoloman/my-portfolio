@@ -10,6 +10,8 @@ import { LoaderComponent } from './loader/loader.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { FooterComponent } from './footer/footer.component';
+import { HamburgerMenuComponent } from './hamburger-menu/hamburger-menu.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     HeaderComponent,
     ExperienceComponent,
     NavbarComponent,
+    HamburgerMenuComponent,
     LoaderComponent,
     PortfolioComponent,
     ProjectsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import {
+  faGithub,
+  faInstagram,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -7,6 +13,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   constructor() {}
+
+  faLinkedin = faLinkedin;
+  faGithub = faGithub;
+  faInstagram = faInstagram;
+  faGlobe = faGlobe;
 
   ngOnInit(): void {
     let lastScrollTop = 0;

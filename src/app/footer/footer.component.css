@@ -1,0 +1,35 @@
+.contenedor {
+  width: 100%;
+  background-color: black;
+  padding-top: 2rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.img-footer {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  width: 1.2rem;
+  }
+
+.links {
+  display: flex;
+}
+.links a {
+  margin: 0.5rem;
+}
+.links .nav-link fa-icon {
+  transition: color 0.15s ease-in-out;
+}
+
+.links .nav-link:hover fa-icon {
+  color: red;
+}
+.links .nav-link:hover img {
+  color: red;
+}

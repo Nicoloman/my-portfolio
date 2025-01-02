@@ -1,0 +1,145 @@
+.text {
+    font-size: 6rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    display: flex;
+    position: absolute;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+    line-height: 0.6;
+  }
+  
+  .text p {
+    margin-bottom: 0;
+  }
+  
+  .white {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+  }
+  
+  @keyframes moveText {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gradient-text {
+    font-size: 32px;
+    background: linear-gradient(45deg, #ff5f6d, #9a08fc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .paragraphs {
+    margin-top: 2rem;
+    display: flex;
+  }
+  
+  .txt2 {
+    margin-left: 10rem;
+  }
+  
+  .body {
+    margin: 0;
+    padding: 0;
+    background-color: #03396c;
+  }
+  
+  @media (max-width: 760px) {
+    .text {
+      font-size: 4rem;
+      animation: moveText 3s linear infinite;
+    }
+  
+    .yo {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0;
+    }
+  
+    .nicoFishEye,
+    .nicoOffLimits {
+      max-height: 12rem;
+    }
+  
+    .text-container h2 {
+      font-size: 1rem;
+    }
+  
+    .text-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .text-container {
+      position: absolute;
+      margin: auto;
+      width: 80%;
+      top: 63%;
+      left: 50%;
+    }
+  
+    .gradient-text {
+      font-size: 25px;
+    }
+  
+    .sub-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .logos {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .logos,
+    .work {
+      display: none;
+    }
+  
+    .text-container {
+      position: absolute;
+      margin: auto;
+      width: 80%;
+      top: 60%;
+      left: 50%;
+    }
+  
+    .contenedor {
+      height: 85vh;
+    }
+  
+    .gradient-text {
+      font-size: 25px;
+    }
+  
+    .sub-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .logos {
+      flex-direction: column;
+    }
+  }
+  
